@@ -1,0 +1,8 @@
+service : {
+  get_counter: (nat) -> (nat);
+  hours_to_minutes: (nat) -> (nat);
+  is_even: (nat) -> (bool);
+  multiply: (nat, nat) -> (nat);
+  test_divide: (nat, nat) -> (bool);
+  volume: (nat) -> (nat);
+}
