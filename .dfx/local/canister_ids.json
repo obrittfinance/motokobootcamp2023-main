@@ -2,13 +2,28 @@
   "__Candid_UI": {
     "local": "rkp4c-7iaaa-aaaaa-aaaca-cai"
   },
+  "book": {
+    "local": "qjdve-lqaaa-aaaaa-aaaeq-cai"
+  },
   "day1": {
     "local": "r7inp-6aaaa-aaaaa-aaabq-cai"
+  },
+  "day2": {
+    "local": "renrk-eyaaa-aaaaa-aaada-cai"
+  },
+  "day3": {
+    "local": "rno2w-sqaaa-aaaaa-aaacq-cai"
+  },
+  "main": {
+    "local": "qoctq-giaaa-aaaaa-aaaea-cai"
   },
   "minter": {
     "local": "rrkah-fqaaa-aaaaa-aaaaq-cai"
   },
   "minter_assets": {
     "local": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+  },
+  "utils": {
+    "local": "rdmx6-jaaaa-aaaaa-aaadq-cai"
   }
 }

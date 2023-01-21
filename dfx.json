@@ -4,6 +4,26 @@
         "main": "src/day1/challenges.mo",
         "type": "motoko"
       },
+      "day2": {
+        "main": "src/day2/challenges.mo",
+        "type": "motoko"
+      },
+      "book": {
+        "main": "src/day3/book.mo",
+        "type": "motoko"
+      },
+      "utils": {
+        "main": "src/day3/utils.mo",
+        "type": "motoko"
+      },
+      "main": {
+        "main": "src/day3/main.mo",
+        "type": "motoko"
+      },
+      "day4": {
+        "main": "src/day4/challenge.mo",
+        "type": "motoko"
+      },
       "minter_assets": {
         "dependencies": [
           "motoko"

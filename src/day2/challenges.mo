@@ -54,17 +54,17 @@ actor {
 
     // 5 - Write a function find_duplicates that takes an array of natural numbers and returns a new array containing all duplicate numbers. The order of the elements in the returned array should be the same as the order of the first occurrence in the input array.
     // find_duplicates(a : [Nat]) -> async [Nat]
-     public query func find_duplicates(a : [Nat]) : async [Nat] {
-        var duplicates = Buffer.Buffer<Nat>(0);
-        var original = Buffer.Buffer<Nat>(0);
-        for (number in a.vals()) {
-            if(Buffer.contains<Nat>(original,number, func (x : Nat, y: Nat) : Bool {x==y})){
-               duplicates.add(number);
-            };
-            original.add(number);
-        };
-        return duplicates.toArray();
-    };
+    //  public query func find_duplicates(a : [Nat]) : async [Nat] {
+    //     var duplicates = Buffer.Buffer<Nat>(0);
+    //     var original = Buffer.Buffer<Nat>(0);
+    //     for (number in a.vals()) {
+    //         if(Buffer.contains<Nat>(original,number, func (x : Nat, y: Nat) : Bool {x==y})){
+    //            duplicates.add(number);
+    //         };
+    //         original.add(number);
+    //     };
+    //     return duplicates.toArray();
+    // };
 
 
 
