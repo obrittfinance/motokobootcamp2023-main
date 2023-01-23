@@ -8,15 +8,7 @@
         "main": "src/day2/challenges.mo",
         "type": "motoko"
       },
-      "book": {
-        "main": "src/day3/book.mo",
-        "type": "motoko"
-      },
-      "utils": {
-        "main": "src/day3/utils.mo",
-        "type": "motoko"
-      },
-      "main": {
+      "day3": {
         "main": "src/day3/main.mo",
         "type": "motoko"
       },
